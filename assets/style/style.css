@@ -1,39 +1,102 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-small{
-    font-size: 13px ;
+
+body {
+    background-color: #e3e6e6;
+}
+
+.header_box small {
+    font-size: 13px;
     display: block;
     color: #ccc;
     font-weight: 600;
     text-transform: capitalize;
 }
-.nav_text p{
+
+.nav_text p {
     font-size: 15px;
     font-weight: 600;
 }
-.nav a{
+
+.nav a {
     /* font-weight: 600; */
 }
-.header_box{
+
+.header_box {
     background-color: black;
 }
-.dropdown button{
+
+.dropdown button {
     border: none;
     background-color: transparent;
 }
-.wh{
+
+.wh {
     filter: invert(1);
 }
-.hover_nav li{
+
+.hover_nav li {
     border: 1px solid transparent;
 }
-.hover_nav li:hover{
+
+.hover_nav li:hover {
     border: 1px solid white;
     transition: 0.4s;
 }
-.hover_nav a{
+
+.hover_nav a {
     font-size: 14px;
-    padding: 10px 8px 0px 8px  ;
+    padding: 10px 8px 0px 8px;
+}
+
+
+.car_box {
+    padding: 5px;
+    text-align: center;
+}
+
+.list a,
+footer {
+    color: #DDD;
+    font-size: 15px;
+
+    text-decoration: none;
+}
+
+.list li:hover a {
+    text-decoration: underline;
+}
+
+.list li {
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width:992px) {
+
+    .pos1,
+    .pos2 {
+        position: static !important;
+
+
+    }
+
+    .car_box img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .pos1 {
+        position: relative;
+        height: 75vh;
+    }
+
+    .pos2 {
+
+        bottom: 0%;
+    }
 }
