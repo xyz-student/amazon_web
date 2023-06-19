@@ -80,7 +80,6 @@ footer {
     .pos2 {
         position: static !important;
 
-
     }
 
     .car_box img {
@@ -89,7 +88,20 @@ footer {
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:993px) {
+    .pos1 {
+        position: relative;
+        height: 75vh;
+ 
+
+    }
+
+    .pos2 {
+
+        bottom: 0%;
+    }
+}
+@media screen and (max-width:1200px) {
     .pos1 {
         position: relative;
         height: 75vh;
@@ -100,3 +112,26 @@ footer {
         bottom: 0%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
